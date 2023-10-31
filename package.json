@@ -1,0 +1,24 @@
+{
+  "author": {
+    "name": "test"
+  },
+  "bundleDependencies": [],
+  "deprecated": false,
+  "devDependencies": {
+    "husky": "8.0.3"
+  },
+  "engines": {
+    "node": ">= 18.14.2 < 19",
+    "npm": ">=9.5.0"
+  },
+  "name": "test",
+  "private": false,
+  "scripts": {
+    "husky-hook-pre-commit": "node -v",
+    "husky-hook-commit-msg": "node -v",
+    "postinstall": "husky install",
+  },
+  "version": "1.0.0",
+  "homepage": "",
+  "peerDependencies": {}
+}
