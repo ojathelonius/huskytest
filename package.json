@@ -16,7 +16,7 @@
   "scripts": {
     "husky-hook-pre-commit": "node -v",
     "husky-hook-commit-msg": "node -v",
-    "postinstall": "husky install",
+    "postinstall": "husky install"
   },
   "version": "1.0.0",
   "homepage": "",
